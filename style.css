@@ -1,0 +1,38 @@
+#results {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gif {
+    box-sizing: border-box;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+body {
+    background-color: black;
+}
+
+#load {
+    display: none;
+    justify-content: center;
+    padding: 10px;
+}
